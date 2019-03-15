@@ -19,11 +19,32 @@ svg {
   z-index: 100;
 }
 
-@media (min-width: 600px) {
+a {
+  /* color: #917657; */
+  background: #0B7499;
+  color: #fff;
+  text-decoration: none;
+  padding: 2px;
+  transition: 500ms;
+}
+a:hover {
+    background: transparent;
+    color: #0B7499;
+    text-decoration: underline;
+  }
 
+@media (min-width: 600px) {
   section {
     position: relative;
     height: 100vh;
     width: 100vw;
   }
+  section > h2 {
+    display: none;
+  }
 }
+
+section > h2 {
+    padding: 10px;
+    margin: 0;
+  }

@@ -83,12 +83,15 @@ const Block2b = styled.div`
 const AboutSection = () => (
     <About id="about">
       <Block1>
-        <h1 css={nospace}>Puppies &amp;<br css={block}/> Portfolios</h1>
+        <h1 css={nospace}>
+          Puppies &amp;
+          <br css={block}/> Portfolios
+        </h1>
       </Block1>
       <Block2 css={block}></Block2>
       <Block2b css={block}></Block2b>
       <Dog1  css={block}/>
-        <p css={content}>Puppies and Portfolio Hangout Club Thing is a group started by Jordan to provide a place to share and get help with building awesome portfolios. Come join us to get advice and feedback on design, content, or the code for creating your super cool online home. Or just hang out and get some work done with the social pressures of actually having to work because you are around other people who are working. </p>
+        <p css={content}>Puppies and Portfolio Hangout Club Thing is a group started by <a href="https://mjordan.codes" target="_blank" rel="noopener noreferrer">Jordan</a> to provide a place to share and get help with building awesome portfolios. Come join us to get advice and feedback on design, content, or the code for creating your super cool online home. Or just hang out and get some work done with the social pressures of actually having to work because you are around other people who are working. </p>
     </About>
 )
 
