@@ -1,11 +1,29 @@
 body {
   margin: 0;
   font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 18px;
+  font-size: 22px;
   text-align: justify;
 }
 
 h1 {
   font-family: 'Fredericka the Great', cursive;
   font-weight: normal;
+}
+
+h2 {
+  text-transform: uppercase;
+  /* font-weight: normal; */
+}
+
+svg {
+  z-index: 100;
+}
+
+@media (min-width: 600px) {
+
+  section {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+  }
 }
