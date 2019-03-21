@@ -9,6 +9,8 @@ const Card = styled.li`
   display: grid;
   grid-template-columns: 75px 1fr;
   grid-gap: 10px;
+  background: rgba(0,0,0,0.05);
+  padding: 10px;
   a {
     color: #2d2d2d;
   }

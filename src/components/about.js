@@ -29,10 +29,10 @@ const content = css`
 const About = styled.section`
   svg {
     position: absolute;
-    top: 88vh;
+    top: 83vh;
     right: 5vw;
-    width: 25vmin;
-    height: 25vmin;
+    width: 35vmin;
+    height: 35vmin;
   }
 `
 

@@ -25,10 +25,10 @@ const content = css`
 const Section = styled.section`
   svg {
     position: absolute;
-    top: 80vh;
+    top: 65vh;
     left: 10vw;
-    width: 35vmin;
-    height: 35vmin;
+    width: 45vmin;
+    height: 45vmin;
   }
 `
 
@@ -60,7 +60,7 @@ const Block2 = styled.div`
 `
 
 const Title = styled.h2`
-  font-size: 4em;
+  font-size: 3em;
   margin: 0;
   writing-mode: vertical-rl;
   padding-bottom: 2em;
@@ -74,7 +74,7 @@ const WhenSection = () => (
     </Block1>
     <Block1b css={block} />
     <Block2 css={block} />
-    {/* <Dog2  css={block}/> */}
+    <Dog2  css={block}/>
     <h2>When &amp; Where?</h2>
     <p css={content}>We meet every Sunday from 1:00 - 5:00 pm at <a href="https://luckylab.com/quimby-beer-hall/" target="_blank" rel="noopener noreferrer">Lucky Labrador on Quimby</a> in downtown Portland.</p>
   </Section>
