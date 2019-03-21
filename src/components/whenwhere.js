@@ -68,7 +68,7 @@ const Title = styled.h2`
 `
 
 const WhenSection = () => (
-  <Section id="about">
+  <Section id="when">
     <Block1 css={block}>
       <Title>When &amp; Where</Title>
     </Block1>

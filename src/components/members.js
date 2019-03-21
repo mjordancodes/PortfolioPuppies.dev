@@ -29,8 +29,8 @@ const Section = styled.section`
     position: absolute;
     top: 65vh;
     right: 1vw;
-    width: 20vmin;
-    height: 20vmin;
+    width: 10vw;
+    height: 10vw;
   }
 `
 
