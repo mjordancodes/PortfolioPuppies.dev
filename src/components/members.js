@@ -6,7 +6,7 @@ import Img from 'gatsby-image'
 
 import Member from './member'
 
-// import Dog2 from "../assets/dog2.svg"
+import Dog3 from "../assets/dog3.svg"
 
 const avatar = css`
   width: 75px;
@@ -21,6 +21,16 @@ const block = css`
   @media (min-width: 600px) {
     display: initial;
     shape-margin: 5px;
+  }
+`
+
+const Section = styled.section`
+  > svg {
+    position: absolute;
+    top: 65vh;
+    right: 1vw;
+    width: 20vmin;
+    height: 20vmin;
   }
 `
 
@@ -111,9 +121,10 @@ const WhoSection = () => (
       }  
     `}
     render={data => (
-      <section id="about">
+      <Section id="about">
         <Block5 css={block} />
         <Block6 css={block} />
+        <Dog3  css={block}/>
 
         <MemberList>
           {data.allMarkdownRemark.edges.map(member => (
@@ -133,7 +144,7 @@ const WhoSection = () => (
           Jump on <a href="https://github.com/mjordancodes/PortfolioPuppies.dev" target="_blank">github</a> and add yourself as a <br />
           member!
           </Info>
-      </section>
+      </Section>
     )}
   />
 

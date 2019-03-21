@@ -15,7 +15,7 @@ const Card = styled.li`
     color: #2d2d2d;
   }
 `
-const Website = styled.a`
+const Portfolio = styled.a`
   display: block;
   font-size: 0.75em;
   &:hover {
@@ -39,11 +39,10 @@ const Info = styled.div`
 
 const Member = ({children, name, website, github, twitter}) => (
   <Card>
-    {/* <img src={img} alt={name} /> */}
     {children}
     <Info>
       {name}
-      <Website href={website} target="_blank" rel="noopener noreferrer">{website.replace('https://', '').replace('http://', '').replace('www.', '')}</Website>
+      <Portfolio href={website} target="_blank" rel="noopener noreferrer">{website.replace('https://', '').replace('http://', '').replace('www.', '')}</Portfolio>
       <Social>
         {github ? (
           <a href={github} target="_blank" rel="noopener noreferrer"><FaGithub /></a>
