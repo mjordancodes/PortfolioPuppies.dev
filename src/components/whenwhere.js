@@ -74,9 +74,9 @@ const WhenSection = () => (
     </Block1>
     <Block1b css={block} />
     <Block2 css={block} />
-    <Dog2  css={block}/>
+    {/* <Dog2  css={block}/> */}
     <h2>When &amp; Where?</h2>
-    <p css={content}>Every Sunday from 1:00 - 5:00 pm at <a href="https://luckylab.com/quimby-beer-hall/" target="_blank" rel="noopener noreferrer">Lucky Labrador on Quimby</a> in downtown Portland.</p>
+    <p css={content}>We meet every Sunday from 1:00 - 5:00 pm at <a href="https://luckylab.com/quimby-beer-hall/" target="_blank" rel="noopener noreferrer">Lucky Labrador on Quimby</a> in downtown Portland.</p>
   </Section>
 )
 

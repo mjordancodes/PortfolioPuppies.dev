@@ -19,15 +19,15 @@ svg {
   z-index: 100;
 }
 
-a {
+p a {
   /* color: #917657; */
   background: #0B7499;
   color: #fff;
   text-decoration: none;
-  padding: 2px;
+  padding: 2px 2px 0;
   transition: 500ms;
 }
-a:hover {
+p a:hover {
     background: transparent;
     color: #0B7499;
     text-decoration: underline;

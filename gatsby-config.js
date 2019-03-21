@@ -1,6 +1,8 @@
 module.exports = {
   plugins: [
-    `gatsby-plugin-emotion`,
+    `gatsby-plugin-emotion`,    'gatsby-transformer-remark',
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
     {
       resolve: 'gatsby-plugin-web-font-loader',
       options: {
@@ -16,6 +18,13 @@ module.exports = {
           include: /assets/
         }
       }
-    }  
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/pages/members`,
+        name: "member-markdown",
+      },
+    },  
   ],
 }
