@@ -35,7 +35,11 @@ const Section = styled.section`
 `
 
 const Info = styled.p`
-  text-align: right;
+  @media (min-width: 600px) {
+    text-align: right;
+  }
+  text-align: center;
+
 `
 
 const Block5 = styled.div`
@@ -47,7 +51,7 @@ const Block5 = styled.div`
   shape-outside: polygon(0 0, 0 100%, 100% 0);
   clip-path: polygon(0 0, 0 100%, 100% 0);
   width: 90vw;
-  height: 25vh;
+  height: 30vh;
 `
 
 const Block6 = styled.div`
@@ -66,7 +70,9 @@ const MemberList = styled.ul`
   max-width: 1399px;
   width: 75vw;
   margin: 0 0 0 5vw;
-  padding-top: 25vh;
+  @media (min-width: 600px) {
+    padding-top: 27vh;
+  }
   @media (min-width: 907px) {
     padding-top: 15vh;
     li:first-of-type {

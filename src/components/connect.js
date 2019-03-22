@@ -2,14 +2,22 @@ import React from "react"
 import styled from "@emotion/styled"
 
 const Conversation = styled.h3`
-  font-size: 4em;
+  text-align: left;
   color: #dadada;
-  padding-left: 5vw;
   margin: 0;
+  font-size: 2.5em;
+  padding: 10px;
+  @media (min-width: 600px) {
+    font-size: 4em;
+    padding-left: 5vw;
+  }
 `
 const Paragraph = styled.p`
-  padding-left: 10vw;
   margin: 0;
+  padding: 10px;
+  @media (min-width: 600px) {
+    padding-left: 10vw;
+  }
 `
 
 const ConnectSection = () => (
